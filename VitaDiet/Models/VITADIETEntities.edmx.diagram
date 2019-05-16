@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4389cd89bc184a048deb79672a705273" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="VITADIETModel.DIETA" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.HISTORIAL" Width="1.5" PointX="8.125" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.NUTRICIONISTA" Width="1.5" PointX="3.125" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.PACIENTE" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.PQR" Width="1.5" PointX="2.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.RUTA" Width="1.5" PointX="4.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VITADIETModel.USUARIO" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="VITADIETModel.FK__HISTORIAL__IDPAC__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="VITADIETModel.FK__NUTRICION__IDUSU__20C1E124" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="VITADIETModel.DISTRIBUIDOR" Width="1.5" PointX="6.75" PointY="5.25" />
+        <EntityTypeShape EntityType="VITADIETModel.CHEQUEO" Width="1.5" PointX="9" PointY="4.25" />
+        <EntityTypeShape EntityType="VITADIETModel.COCINASet" Width="1.5" PointX="7" PointY="9.375" />
+        <EntityTypeShape EntityType="VITADIETModel.COCINERO" Width="1.5" PointX="11.25" PointY="4.625" />
+        <AssociationConnector Association="VITADIETModel.FK__CHEQUEO__CEDULA___24927208" />
+        <AssociationConnector Association="VITADIETModel.FK__CHEQUEO__CEDULA___25869641" />
+        <AssociationConnector Association="VITADIETModel.FK_COCINACOCINERO" />
+        <AssociationConnector Association="VITADIETModel.FK_RUTACOCINA" />
+        <AssociationConnector Association="VITADIETModel.FK_USUARIOCOCINERO" />
+        <AssociationConnector Association="VITADIETModel.FK_PACIENTEDIETA" />
+        <AssociationConnector Association="VITADIETModel.FK_DISTRIBUIDORRUTA" />
+        <AssociationConnector Association="VITADIETModel.FK_USUARIODISTRIBUIDOR" />
+        <AssociationConnector Association="VITADIETModel.FK_PACIENTEPQR" />
+        <AssociationConnector Association="VITADIETModel.FK_USUARIOPACIENTE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
